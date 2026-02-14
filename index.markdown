@@ -4,7 +4,7 @@
 
 layout: home
 ---
-<p>I am Keon Cachia, I am currently student at MCAST getting an advanced diploma in IT(software development).
+<p>I am Keon Cachia, I am currently a student at MCAST getting an advanced diploma in IT(software development).
 IT deeply interests me and I am especially interested in free(as in freedom) software.</p>
 
 - Nationality: Maltese 
