@@ -121,7 +121,7 @@ MariaDB> GRANT ALL PRIVILEGES ON mydb.* TO '<username>'@'localhost';
 MariaDB> quit
 ```
 
-Then make this Php script and run it with "php <script_name>.php"
+Then make this Php script and run it with "php script_name.php"
 
 ```php
 <?php
@@ -203,7 +203,7 @@ Now go to the directory where you have set your document root to and use UCL to 
 # Grant execute permissions to http for your home
 $ setfacl -m u:http:x ~
 # Grant execute and read permissions to http to your DocumentRoot
-$ setfacl -R -m u:http:rx ~/public_html
+$ setfacl -R -m u:http:rx ~/<DocumentRootPath>
 ```
 
 I would recommend creating a file named index.html and just make it a simple HTML page to check if Apache works. If you are using the Systemd service you will also need to add this option to the service's hardening configuration(/etc/systemd/system/httpd.service.d/hardening.conf)
